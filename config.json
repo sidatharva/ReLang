@@ -1,0 +1,36 @@
+{
+    "general": {
+        "gesture_cooldown": 2.5,
+        "feedback_duration": 1.5
+    },
+    "mouse": {
+        "smoothing": 0.7,
+        "pinch_threshold_click": 35,
+        "drag_hold_duration": 0.2,
+        "scroll_speed_multiplier": 30
+    },
+    "volume": {
+        "pinch_threshold_min": 40,
+        "pinch_threshold_max": 150
+    },
+    "gestures": {
+        "quit_open_palm": {
+            "enabled": true,
+            "key": "quit"
+        },
+        "toggle_control_mode": {
+            "enabled": true,
+            "key": "toggle_control"
+        }
+    },
+    "actions": {
+        "quit": {
+            "type": "system",
+            "command": "quit"
+        },
+        "toggle_control": {
+            "type": "system",
+            "command": "toggle_control_mode"
+        }
+    }
+}
